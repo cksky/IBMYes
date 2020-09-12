@@ -62,7 +62,7 @@ clone_repo(){
     git clone https://github.com/cksky/IBMYes
     cd IBMYes
     # git submodule update --init --recursive
-    git https://github.com/cksky/v2ray-cloudfoundry.git
+    git clone https://github.com/cksky/v2ray-cloudfoundry
     cd v2ray-cloudfoundry/v2ray
     # Upgrade V2Ray to the latest version
     rm v2ray v2ctl
